@@ -25,6 +25,12 @@ struct ContentView: View {
                 }
             }
             .padding()
+            Section("Navigation for list and value for destination") {
+                NavigationLink("Customer List Example") {
+                    CustomerList()
+                }
+            }
+            .padding()
         }
     }
 }

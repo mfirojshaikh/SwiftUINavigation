@@ -20,6 +20,8 @@
 		D771A2282B52B6D5009E1383 /* NavigationLinkValueDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = D771A2272B52B6D5009E1383 /* NavigationLinkValueDestination.swift */; };
 		D771A22A2B52B7F0009E1383 /* AnimalDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D771A2292B52B7F0009E1383 /* AnimalDetails.swift */; };
 		D771A22C2B52B87A009E1383 /* StudentDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D771A22B2B52B87A009E1383 /* StudentDetails.swift */; };
+		D772A6712B52DDB1008915A2 /* CustomerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D772A6702B52DDB1008915A2 /* CustomerList.swift */; };
+		D772A6732B52E161008915A2 /* NavigationStackPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = D772A6722B52E161008915A2 /* NavigationStackPath.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		D771A2272B52B6D5009E1383 /* NavigationLinkValueDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLinkValueDestination.swift; sourceTree = "<group>"; };
 		D771A2292B52B7F0009E1383 /* AnimalDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetails.swift; sourceTree = "<group>"; };
 		D771A22B2B52B87A009E1383 /* StudentDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDetails.swift; sourceTree = "<group>"; };
+		D772A6702B52DDB1008915A2 /* CustomerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerList.swift; sourceTree = "<group>"; };
+		D772A6722B52E161008915A2 /* NavigationStackPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackPath.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +120,8 @@
 				D771A2272B52B6D5009E1383 /* NavigationLinkValueDestination.swift */,
 				D771A2292B52B7F0009E1383 /* AnimalDetails.swift */,
 				D771A22B2B52B87A009E1383 /* StudentDetails.swift */,
+				D772A6702B52DDB1008915A2 /* CustomerList.swift */,
+				D772A6722B52E161008915A2 /* NavigationStackPath.swift */,
 			);
 			path = NavigationCourse;
 			sourceTree = "<group>";
@@ -276,12 +282,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D771A2282B52B6D5009E1383 /* NavigationLinkValueDestination.swift in Sources */,
+				D772A6732B52E161008915A2 /* NavigationStackPath.swift in Sources */,
 				D7596AE52B52A140003A6E06 /* SimpleNavigation.swift in Sources */,
 				D7596AB92B529D95003A6E06 /* ContentView.swift in Sources */,
 				D7596AE12B529F4A003A6E06 /* DetailView.swift in Sources */,
 				D771A22C2B52B87A009E1383 /* StudentDetails.swift in Sources */,
 				D7596AE32B52A026003A6E06 /* HeartDetailView.swift in Sources */,
 				D7596AB72B529D95003A6E06 /* NavigationCourseApp.swift in Sources */,
+				D772A6712B52DDB1008915A2 /* CustomerList.swift in Sources */,
 				D771A22A2B52B7F0009E1383 /* AnimalDetails.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
