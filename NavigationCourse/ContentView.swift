@@ -31,6 +31,12 @@ struct ContentView: View {
                 }
             }
             .padding()
+            Section("NavigationPath with Enum") {
+                NavigationLink("NavigationPath with Enum") {
+                    EnumRoutingHomeView()
+                }
+            }
+            .padding()
         }
     }
 }

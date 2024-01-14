@@ -14,6 +14,14 @@ struct NavigationStackPathDetails: View {
             Button("Back") {
                 navigationArray.removeLast()
             }
+            .padding()
+            Button("Pop to root") {
+                navigationArray.removeAll()
+            }
+            .padding()
+            Button("Navigate to back and go to another destination") {
+                navigationArray = [30]
+            }
         }
     }
 }
